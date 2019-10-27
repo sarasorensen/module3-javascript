@@ -1,0 +1,51 @@
+JavaScript MA03
+----------------
+Level 2
+
+1. In your own words, describe what JavaScript Code Style is.
+When writing code, you should be clear and concise for example naming functions with a clear meaning. When you structure your code, you 
+should leave comments for explanations on how the block of code works (especially if you are working on a team). 
+You shuld always use indentation, so your code is readable. 
+
+2. What is a Regular Expression?
+RegEx are patterns that can be performed on strings. You can use this to validate 
+emails for an example, or check if a string that is put in is just numbers or letters. 
+
+3. What does the .random() method do?
+the method is used to generate a random number between 0.0 and 1.0. 
+
+4. What does the .sort() method do?
+The sort method sorts the items of an array, by default it sorts in alphabetical and ascending order. 
+
+5. What does the .reverse() method do?
+The reverse method reverses the order of the elements in an array. 
+
+6. List two examples of bad JavaScript code.
+- Using non-strict comparison operators, and then comparing across different types:
+ex. 
+1 == “1”; // true
+false == “ nt “; // true
+[[],[]] == true; // true
+
+-Not following proper naming convention, the following example does not give a descriptive naming, 
+and is therefor hard for other people to understand.
+ex. 
+var Sara = ‘1001’;
+function Mona() {
+}
+
+7. What data types can a JSON object contain?
+JSON = JavaScript Object Notation, and can contain 6 data types: 
+-Objects
+-Arrays
+-strings
+-numbers
+-Booleans
+-null
+
+8. What is minifying JavaScript Code?
+Minification is a process of minimizing code, it's used to reduce load times. It will
+dramatically improve speed time on your site and accessibility. 
+
+9. What is a global variable?
+It's a variable with global scope, meaning it's visible throughout the program. 
